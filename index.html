@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Happy 19th Birthday ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+<!-- PASSWORD SCREEN -->
+
+<div id="password-screen">
+
+    <div class="password-box">
+
+        <div class="password-heart">
+            🔐❤️
+        </div>
+
+        <h1>
+            A Little Secret
+        </h1>
+
+        <p>
+            Masukkan password untuk membuka hadiahmu 💕
+        </p>
+
+        <input
+            type="password"
+            id="password-input"
+            placeholder="Password..."
+        >
+
+        <button
+            onclick="checkPassword()"
+        >
+            Unlock ❤️
+        </button>
+
+        <p
+            id="password-error"
+            class="password-error"
+        ></p>
+
+    </div>
+
+</div>
+
+    <!-- =====================================
+         OPENING SCREEN
+    ====================================== -->
+
+    <div id="opening-screen">
+
+        <div class="opening-content">
+
+            <div class="opening-star">
+                ✨
+            </div>
+
+            <h1>
+                A Little Surprise For You ❤️
+            </h1>
+
+            <p>
+                I made something special for you...
+            </p>
+
+            <button
+                id="start-button"
+                onclick="startBirthday()"
+            >
+                Open Your Birthday Gift 🎁
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================
+         MUSIC
+    ====================================== -->
+
+    <audio
+        id="bg-music"
+        loop
+    >
+
+        <source
+            src="lagu.mp3"
+            type="audio/mpeg"
+        >
+
+    </audio>
+
+
+
+    <!-- =====================================
+         MAIN WEBSITE
+    ====================================== -->
+
+    <main id="main-content">
+
+
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-decoration">
+                    ✨ ❤️ ✨
+                </div>
+
+                <p class="small-title">
+                    FOR MY FAVORITE PERSON
+                </p>
+
+                <h1>
+                    Happy 19th Birthday,
+                    <span>Sayang ❤️</span>
+                </h1>
+
+                <div class="birthday-date">
+                    29 • 08 • 2026
+                </div>
+
+                <div class="age-badge">
+                    19 YEARS OLD 🎂
+                </div>
+
+                <p class="hero-text">
+                    Hari ini adalah hari spesial seseorang
+                    yang sangat berarti buat aku.
+                </p>
+
+                <button
+                    class="scroll-button"
+                    onclick="scrollToSection('memory')"
+                >
+                    Start Our Story ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             OUR FIRST PHOTO
+        ====================================== -->
+
+        <section
+            id="memory"
+            class="memory-section"
+        >
+
+            <div class="section-label">
+                OUR MEMORY
+            </div>
+
+            <h2>
+                📸 Our First Photo Together
+            </h2>
+
+            <p class="section-subtitle">
+                Maybe it's just one photo,
+                but it's one of my favorite memories. ❤️
+            </p>
+
+
+            <div class="photo-frame">
+
+                <div class="photo-tape">
+                    ❤️
+                </div>
+
+                <img
+                    src="foto.jpg"
+                    alt="Our first photo together"
+                >
+
+            </div>
+
+
+            <div class="memory-text">
+
+                <p>
+                    Mungkin ini baru satu foto yang
+                    kita punya bersama, tapi buat aku
+                    foto ini punya cerita yang spesial.
+                </p>
+
+                <p>
+                    Dari pertama kali kita jalan bareng
+                    ke pantai, sampai akhirnya kita punya
+                    foto ini. 🌊❤️
+                </p>
+
+                <p>
+                    Aku berharap ini bukan menjadi
+                    satu-satunya foto kita bersama.
+                    Semoga nantinya kita bisa punya
+                    lebih banyak foto, lebih banyak cerita,
+                    dan lebih banyak kenangan yang kita
+                    buat bersama.
+                </p>
+
+            </div>
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             19 THINGS
+        ====================================== -->
+
+        <section
+            id="reasons"
+            class="reasons-section"
+        >
+
+            <div class="section-label">
+                19 LITTLE REASONS
+            </div>
+
+            <h2>
+                19 Things I Love About You ❤️
+            </h2>
+
+            <p class="section-subtitle">
+                19 years of you,
+                and somehow I still find more reasons
+                to love you every day.
+            </p>
+
+
+            <div class="cards-grid">
+
+
+
+                <!-- 01 -->
+
+                <div
+                    class="love-card anim-heart"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            😊
+                        </span>
+
+                        <span class="card-number">
+                            01
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Your Smile 😊
+                        </h3>
+
+                        <p>
+                            Salah satu hal yang selalu berhasil
+                            membuat aku bahagia adalah senyummu.
+                            Entah kenapa, setiap kali kamu tersenyum,
+                            semuanya terasa sedikit lebih indah.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 02 -->
+
+                <div
+                    class="love-card anim-bounce"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🥰
+                        </span>
+
+                        <span class="card-number">
+                            02
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Your Laugh 🥰
+                        </h3>
+
+                        <p>
+                            Tawamu adalah salah satu suara
+                            favoritku. Setiap kali mendengarnya,
+                            aku ikut merasa bahagia.
+
+                            <br><br>
+
+                            Bahkan ketika hariku sedang kurang baik,
+                            melihat atau mendengar kamu tertawa
+                            bisa membuat semuanya terasa lebih ringan.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 03 -->
+
+                <div
+                    class="love-card anim-rotate"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🌷
+                        </span>
+
+                        <span class="card-number">
+                            03
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Your Kindness 🌷
+                        </h3>
+
+                        <p>
+                            Salah satu hal yang membuat aku semakin
+                            sayang sama kamu adalah kebaikanmu.
+                            Cara kamu memperhatikan orang lain
+                            dan memperlakukan mereka dengan tulus
+                            membuat aku sadar kalau kamu punya
+                            hati yang sangat baik.
+
+                            <br><br>
+
+                            Mungkin buat kamu itu hal biasa,
+                            tapi buat aku, melihat sisi itu dari kamu
+                            selalu membuatku merasa bangga bisa
+                            memiliki seseorang seperti kamu.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 04 -->
+
+                <div
+                    class="love-card anim-sparkle"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🎵
+                        </span>
+
+                        <span class="card-number">
+                            04
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Your Voice 🎵
+                        </h3>
+
+                        <p>
+                            Aku suka mendengar suaramu,
+                            bahkan ketika kamu hanya bercerita
+                            tentang hal-hal kecil.
+
+                            <br><br>
+
+                            Ada sesuatu dari suaramu yang selalu
+                            membuat aku merasa tenang.
+                            Kadang aku tidak membutuhkan nasihat
+                            atau kata-kata panjang.
+                            Aku cuma ingin mendengar kamu berbicara,
+                            karena entah bagaimana, suara kamu
+                            bisa membuat semuanya terasa sedikit lebih baik.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 05 -->
+
+                <div
+                    class="love-card anim-float"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            💕
+                        </span>
+
+                        <span class="card-number">
+                            05
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            05
+                        </div>
+
+                        <h3>
+                            Your Personality 💕
+                        </h3>
+
+                        <p>
+                            Aku jatuh sayang bukan hanya karena
+                            satu hal dari kamu, tapi karena seluruh
+                            kepribadianmu.
+
+                            <br><br>
+
+                            Kamu bisa menjadi dewasa ketika dibutuhkan,
+                            bisa sangat lucu sampai membuatku tertawa,
+                            dan bisa begitu ceria sampai suasana
+                            di sekitarmu ikut berubah.
+
+                            <br><br>
+
+                            Aku suka semua sisi itu.
+                            Bahkan sisi kamu yang mungkin menurutmu
+                            kurang sempurna pun tetap menjadi bagian
+                            dari kamu yang ingin aku kenal dan aku sayangi.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 06 -->
+
+                <div
+                    class="love-card anim-pulse"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            ❤️
+                        </span>
+
+                        <span class="card-number">
+                            06
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            06
+                        </div>
+
+                        <h3>
+                            Your Care ❤️
+                        </h3>
+
+                        <p>
+                            Perhatianmu mungkin sering datang dari
+                            hal-hal kecil, tapi justru hal-hal kecil
+                            itu yang paling aku ingat.
+
+                            <br><br>
+
+                            Saat kamu menanyakan kabarku,
+                            memastikan aku baik-baik saja,
+                            atau sekadar mengingat sesuatu tentangku,
+                            dari sana aku tahu bahwa aku benar-benar
+                            berarti buat kamu.
+
+                            <br><br>
+
+                            Dan jujur, perasaan disayangi oleh seseorang
+                            yang aku sayangi juga adalah salah satu hal
+                            paling indah yang pernah aku rasakan.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 07 -->
+
+                <div
+                    class="love-card anim-sway"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🌸
+                        </span>
+
+                        <span class="card-number">
+                            07
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            07
+                        </div>
+
+                        <h3>
+                            Your Patience 🌸
+                        </h3>
+
+                        <p>
+                            Aku tahu aku bukan seseorang yang selalu
+                            mudah untuk dipahami.
+
+                            <br><br>
+
+                            Ada saatnya aku melakukan kesalahan,
+                            membuatmu kesal, atau mungkin tanpa sadar
+                            membuatmu kecewa.
+
+                            <br><br>
+
+                            Karena itu aku sangat menghargai
+                            kesabaranmu. Terima kasih karena tidak
+                            langsung menyerah ketika menghadapi
+                            sisi diriku yang tidak sempurna.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 08 -->
+
+                <div
+                    class="love-card anim-zoom"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🫂
+                        </span>
+
+                        <span class="card-number">
+                            08
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            08
+                        </div>
+
+                        <h3>
+                            Your Hugs 🫂
+                        </h3>
+
+                        <p>
+                            Ada sesuatu yang berbeda ketika aku
+                            berada dekat denganmu.
+
+                            <br><br>
+
+                            Rasanya seperti aku bisa berhenti
+                            memikirkan banyak hal untuk sementara
+                            dan hanya menikmati keberadaanmu.
+
+                            <br><br>
+
+                            Kalau suatu hari nanti aku sedang lelah
+                            dengan semuanya, aku berharap masih ada
+                            tempat di dekatmu yang bisa membuatku
+                            merasa tenang.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 09 -->
+
+                <div
+                    class="love-card anim-glow"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            ❤️
+                        </span>
+
+                        <span class="card-number">
+                            09
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            09
+                        </div>
+
+                        <h3>
+                            Your Presence ❤️
+                        </h3>
+
+                        <p>
+                            Aku akhirnya mengerti bahwa seseorang
+                            tidak harus melakukan sesuatu yang besar
+                            untuk membuat hidup kita menjadi lebih indah.
+
+                            <br><br>
+
+                            Terkadang cukup dengan hadir saja
+                            sudah berarti banyak.
+
+                            <br><br>
+
+                            Begitu juga dengan kamu.
+                            Kehadiranmu mungkin terlihat sederhana,
+                            tapi sejak kamu hadir dalam hidupku,
+                            ada banyak hari yang terasa lebih berwarna.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 10 -->
+
+                <div
+                    class="love-card anim-polaroid"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            📸
+                        </span>
+
+                        <span class="card-number">
+                            10
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            10
+                        </div>
+
+                        <h3>
+                            Our Memories 📸
+                        </h3>
+
+                        <p>
+                            Kalau suatu hari nanti kita sudah
+                            melewati banyak tahun bersama,
+                            aku ingin tetap bisa mengingat awal
+                            dari semuanya.
+
+                            <br><br>
+
+                            Aku ingin mengingat bagaimana kita mulai
+                            membuat cerita kecil kita sendiri.
+
+                            <br><br>
+
+                            Bahkan perjalanan pertama kita jalan
+                            bersama ke pantai menjadi salah satu
+                            kenangan yang aku simpan dengan baik.
+
+                            <br><br>
+
+                            Mungkin bagi orang lain itu hanya
+                            perjalanan biasa, tapi buat aku,
+                            itu adalah salah satu bagian dari cerita
+                            kita yang ingin selalu aku ingat.
+                            🌊❤️
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 11 -->
+
+                <div
+                    class="love-card anim-slide"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🫶
+                        </span>
+
+                        <span class="card-number">
+                            11
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            11
+                        </div>
+
+                        <h3>
+                            Your Support 🫶
+                        </h3>
+
+                        <p>
+                            Ada kalanya aku merasa ragu dengan
+                            diriku sendiri dan bertanya apakah
+                            aku mampu melakukan sesuatu.
+
+                            <br><br>
+
+                            Di saat seperti itu, dukungan dari
+                            orang yang aku sayangi menjadi sesuatu
+                            yang sangat berarti.
+
+                            <br><br>
+
+                            Terima kasih sudah menjadi seseorang
+                            yang membuatku merasa bahwa aku
+                            tidak sendirian.
+
+                            <br><br>
+
+                            Aku berharap suatu hari nanti aku juga
+                            bisa menjadi seseorang yang selalu bisa
+                            kamu andalkan ketika kamu membutuhkan
+                            seseorang untuk berada di sisimu.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 12 -->
+
+                <div
+                    class="love-card anim-flip"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🌷
+                        </span>
+
+                        <span class="card-number">
+                            12
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            12
+                        </div>
+
+                        <h3>
+                            The Little Things 🌷
+                        </h3>
+
+                        <p>
+                            Mungkin kamu nggak sadar berapa banyak
+                            hal kecil tentangmu yang sebenarnya
+                            aku perhatikan.
+
+                            <br><br>
+
+                            Cara kamu berbicara, cara kamu tertawa,
+                            cara kamu merespons sesuatu, bahkan
+                            kebiasaan kecil yang mungkin menurutmu
+                            tidak penting.
+
+                            <br><br>
+
+                            Tapi justru dari hal-hal kecil itulah
+                            aku semakin mengenal kamu.
+
+                            <br><br>
+
+                            Dan semakin aku mengenalmu,
+                            semakin aku menemukan alasan baru
+                            untuk menyayangimu.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 13 -->
+
+                <div
+                    class="love-card anim-shake"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            ✨
+                        </span>
+
+                        <span class="card-number">
+                            13
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            13
+                        </div>
+
+                        <h3>
+                            Your Strength ✨
+                        </h3>
+
+                        <p>
+                            Aku tahu hidup tidak selalu mudah.
+                            Akan ada hari ketika kamu merasa lelah,
+                            kecewa, atau merasa semuanya terlalu berat.
+
+                            <br><br>
+
+                            Tapi aku ingin kamu tahu bahwa aku
+                            percaya kamu jauh lebih kuat daripada
+                            yang kamu pikirkan.
+
+                            <br><br>
+
+                            Aku ingin melihat kamu terus tumbuh,
+                            semakin dewasa, mengejar apa yang kamu
+                            impikan, dan menjadi seseorang yang
+                            kamu banggakan sendiri.
+
+                            <br><br>
+
+                            Dan kalau suatu hari kamu merasa lelah,
+                            aku berharap kamu ingat bahwa ada
+                            seseorang yang selalu percaya kepadamu.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 14 -->
+
+                <div
+                    class="love-card anim-pop"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            ❤️
+                        </span>
+
+                        <span class="card-number">
+                            14
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            14
+                        </div>
+
+                        <h3>
+                            The Way You Love Me ❤️
+                        </h3>
+
+                        <p>
+                            Cara kamu menyayangiku adalah sesuatu
+                            yang tidak pernah ingin aku anggap remeh.
+
+                            <br><br>
+
+                            Setiap perhatian, setiap kata,
+                            dan setiap hal kecil yang kamu lakukan
+                            selalu memiliki tempat tersendiri
+                            di hatiku.
+
+                            <br><br>
+
+                            Aku mungkin tidak selalu pandai
+                            menunjukkan betapa berartinya semua itu,
+                            tapi percayalah, aku merasakannya.
+
+                            <br><br>
+
+                            Aku berharap aku juga bisa memberikan
+                            rasa aman dan bahagia yang sama seperti
+                            yang kamu berikan kepadaku.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 15 -->
+
+                <div
+                    class="love-card anim-envelope"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            💗
+                        </span>
+
+                        <span class="card-number">
+                            15
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            15
+                        </div>
+
+                        <h3>
+                            Your Honesty 💗
+                        </h3>
+
+                        <p>
+                            Aku percaya hubungan yang benar-benar
+                            berarti tidak hanya dibangun dari rasa
+                            sayang, tapi juga dari kejujuran
+                            dan kepercayaan.
+
+                            <br><br>
+
+                            Karena itu aku menghargai setiap kali
+                            kamu mau terbuka kepadaku.
+
+                            <br><br>
+
+                            Aku ingin kita bisa menjadi tempat
+                            satu sama lain untuk bercerita
+                            tanpa takut dihakimi.
+
+                            <br><br>
+
+                            Aku ingin kita bisa saling percaya,
+                            bahkan ketika keadaan tidak selalu mudah.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 16 -->
+
+                <div
+                    class="love-card anim-fade"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🌸
+                        </span>
+
+                        <span class="card-number">
+                            16
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            16
+                        </div>
+
+                        <h3>
+                            Being Yourself 🌸
+                        </h3>
+
+                        <p>
+                            Aku tidak menyayangimu karena kamu
+                            harus menjadi sempurna.
+
+                            <br><br>
+
+                            Aku menyayangimu karena kamu
+                            adalah dirimu sendiri.
+
+                            <br><br>
+
+                            Dengan semua kelebihanmu,
+                            kekuranganmu, sisi lucumu,
+                            sisi dewasamu, bahkan hal-hal
+                            yang mungkin kadang membuat kita
+                            berbeda pendapat.
+
+                            <br><br>
+
+                            Kamu tidak perlu menjadi orang lain
+                            supaya layak disayangi.
+
+                            <br><br>
+
+                            Buat aku, kamu yang apa adanya
+                            sudah cukup. ❤️
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 17 -->
+
+                <div
+                    class="love-card anim-slowzoom"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🥹
+                        </span>
+
+                        <span class="card-number">
+                            17
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            17
+                        </div>
+
+                        <h3>
+                            Our Journey 🥹
+                        </h3>
+
+                        <p>
+                            Kalau aku melihat kembali perjalanan
+                            kita sampai sekarang, aku sadar bahwa
+                            setiap hubungan pasti punya cerita
+                            dan prosesnya sendiri.
+
+                            <br><br>
+
+                            Ada tawa, ada kesalahpahaman,
+                            ada momen bahagia, dan mungkin akan
+                            ada banyak hal yang harus kita lewati lagi.
+
+                            <br><br>
+
+                            Tapi aku ingin terus berjalan.
+                            Aku ingin melihat sejauh apa cerita kita
+                            bisa berkembang.
+
+                            <br><br>
+
+                            Semoga suatu hari nanti kita bisa
+                            melihat kembali semua ini dan tersenyum
+                            karena ternyata kita berhasil
+                            melewati semuanya bersama.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 18 -->
+
+                <div
+                    class="love-card anim-photo"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            📸
+                        </span>
+
+                        <span class="card-number">
+                            18
+                        </span>
+
+                        <span>
+                            Tap to open ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            18
+                        </div>
+
+                        <h3>
+                            Every Moment With You 📸
+                        </h3>
+
+                        <p>
+                            Aku belajar bahwa kenangan tidak selalu
+                            harus berupa sesuatu yang besar.
+
+                            <br><br>
+
+                            Terkadang hanya duduk bersama,
+                            berbicara tentang hal random,
+                            tertawa karena sesuatu yang tidak penting,
+                            atau sekadar menghabiskan waktu bersamamu
+                            sudah cukup untuk menjadi kenangan
+                            yang aku simpan.
+
+                            <br><br>
+
+                            Karena yang membuat sebuah momen
+                            terasa spesial bukan selalu tentang
+                            apa yang kita lakukan,
+                            tapi tentang dengan siapa aku menjalaninya.
+
+                            <br><br>
+
+                            Dan aku selalu senang ketika orang itu
+                            adalah kamu.
+                        </p>
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 19 -->
+
+                <div
+                    class="love-card special-card anim-special"
+                    onclick="openCard(this)"
+                >
+
+                    <div class="card-cover">
+
+                        <span class="card-emoji">
+                            🎁
+                        </span>
+
+                        <span class="card-number">
+                            19
+                        </span>
+
+                        <span>
+                            The Last One ❤️
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-number">
+                            19
+                        </div>
+
+                        <h3>
+                            Because You're You ❤️
+                        </h3>
+
+                        <p>
+                            Kalau seseorang bertanya kepadaku,
+                            "Kenapa kamu begitu menyayangi dia?"
+                            mungkin aku akan kesulitan memberikan
+                            satu jawaban.
+
+                            <br><br>
+
+                            Karena semakin aku mengenalmu,
+                            semakin banyak alasan yang aku temukan.
+
+                            <br><br>
+
+                            Aku menyayangimu karena perhatianmu,
+                            karena tawamu, karena caramu membuatku
+                            nyaman, karena kebaikanmu, karena semua
+                            cerita yang sudah kita lewati,
+                            dan karena kamu selalu berhasil menjadi
+                            seseorang yang ingin aku temui lagi
+                            dan lagi.
+
+                            <br><br>
+
+                            Tapi pada akhirnya, mungkin alasan
+                            yang paling sederhana adalah ini:
+
+                            <br><br>
+
+                            <strong>
+                                Aku menyayangimu karena kamu adalah kamu.
+                            </strong>
+
+                            <br><br>
+
+                            Aku tidak tahu bagaimana perjalanan
+                            kita ke depannya.
+
+                            <br><br>
+
+                            Tapi untuk sekarang, aku ingin menikmati
+                            setiap langkah yang kita jalani bersama.
+
+                            <br><br>
+
+                            Aku ingin membuat lebih banyak kenangan,
+                            mengambil lebih banyak foto,
+                            pergi ke lebih banyak tempat,
+                            tertawa lebih banyak,
+                            dan tumbuh bersama.
+
+                            <br><br>
+
+                            Dan di umurmu yang ke-19 ini,
+                            aku cuma punya satu harapan untuk kita:
+
+                            <br><br>
+
+                            <strong>
+                                Semoga kamu tetap menjadi sayangku,
+                                dan semoga aku masih menjadi orang
+                                yang kamu pilih untuk berjalan bersamamu. ❤️
+                            </strong>
+
+                        </p>
+
+
+                        <button
+                            class="final-gift-button"
+                            onclick="event.stopPropagation(); showFinalGift()"
+                        >
+                            One More Gift 🎁
+                        </button>
+
+
+                        <div class="card-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             FINAL GIFT
+        ====================================== -->
+
+        <section
+            id="secret"
+            class="secret-section"
+        >
+
+            <div class="secret-content">
+
+                <div class="final-title">
+                    ✨ One More Thing... ✨
+                </div>
+
+                <p class="final-subtitle">
+                    Kamu sudah membuka semua hadiahnya...
+                </p>
+
+
+                <div
+                    id="envelope"
+                    class="envelope"
+                    onclick="openLetter()"
+                >
+
+                    <div class="envelope-back"></div>
+
+
+                    <div class="letter-paper">
+
+                        <div class="letter-content">
+
+                            <h2>
+                                To My Sayang ❤️
+                            </h2>
+
+
+                            <p>
+                                Happy 19th Birthday, sayang. 🎂❤️
+                            </p>
+
+
+                            <p>
+                                Selamat ulang tahun yang ke-19,
+                                sayang.
+
+                                Hari ini adalah hari spesial buat kamu,
+                                dan aku cuma ingin kamu tahu kalau aku
+                                benar-benar bersyukur bisa mengenal
+                                dan memiliki kamu di hidupku.
+                            </p>
+
+
+                            <p>
+                                Aku suka banyak hal dari kamu.
+
+                                Aku suka bagaimana kamu selalu perhatian,
+                                bagaimana kamu bisa menjadi seseorang
+                                yang dewasa dan pengertian,
+                                tapi di saat yang sama tetap lucu
+                                dan ceria.
+                            </p>
+
+
+                            <p>
+                                Kamu punya cara sendiri untuk membuat
+                                aku tersenyum, bahkan dari hal-hal kecil.
+
+                                Dan mungkin kamu nggak selalu menyadarinya,
+                                tapi kehadiran kamu benar-benar berarti
+                                buat aku.
+                            </p>
+
+
+                            <p>
+                                Salah satu kenangan yang paling aku ingat
+                                adalah saat pertama kali kita jalan bareng
+                                ke pantai. 🌊❤️
+
+                                Sederhana memang, tapi entah kenapa
+                                momen itu menjadi salah satu kenangan
+                                yang ingin selalu aku ingat.
+                            </p>
+
+
+                            <p>
+                                Aku berharap di umur kamu yang ke-19 ini,
+                                kamu bisa menjadi semakin dewasa,
+                                semakin kuat, dan tentunya semakin sukses.
+
+                                Semoga semua impian dan hal-hal yang
+                                kamu inginkan bisa tercapai satu per satu.
+                            </p>
+
+
+                            <p>
+                                Aku juga berharap kamu selalu bahagia,
+                                selalu menjadi diri kamu sendiri,
+                                dan tetap menjadi sayang yang aku kenal.
+                            </p>
+
+
+                            <p>
+                                Dan satu hal yang paling aku harapkan...
+
+                                semoga kamu selalu sayang sama aku,
+                                seperti aku yang akan selalu berusaha
+                                menyayangi kamu. ❤️
+                            </p>
+
+
+                            <p>
+                                Terima kasih sudah hadir dalam hidupku,
+                                terima kasih untuk semua perhatian,
+                                tawa, cerita, dan setiap momen yang
+                                sudah kita lewati bersama.
+                            </p>
+
+
+                            <p>
+                                Semoga setelah umur 19 ini,
+                                kita masih bisa membuat banyak
+                                kenangan baru bersama.
+
+                                Bukan cuma hari ini,
+                                tapi juga di hari-hari yang akan datang.
+                            </p>
+
+
+                            <p>
+                                I love you so much, sayang. ❤️
+                            </p>
+
+
+                            <p class="signature">
+                                With all my love,<br>
+                                Wisnu ❤️
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="envelope-front">
+
+                        <div class="heart-seal">
+                            ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <p class="click-envelope">
+                    Klik amplopnya 💌
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================
+         JAVASCRIPT
+    ====================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
